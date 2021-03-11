@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
-	Models "github.com/pyflex/go-blockchain-hackernoon/models"
+	Models "github.com/tornvallalexander/go-blockchain-hackernoon/models"
 )
 
 func GetLatestBlock(client ethclient.Client) *Models.Block {

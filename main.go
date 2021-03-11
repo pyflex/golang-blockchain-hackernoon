@@ -7,7 +7,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/gorilla/mux"
-	Handlers "github.com/pyflex/go-blockchain-hackernoon/handler"
+	Handlers "github.com/tornvallalexander/go-blockchain-hackernoon/handler"
 )
 
 func main() {
@@ -25,3 +25,5 @@ func main() {
 	r.Handle("/api/v1/eth/{module}", Handlers.ClientHandler{client})
 	log.Fatal(http.ListenAndServe(":8080", r))
 }
+
+//

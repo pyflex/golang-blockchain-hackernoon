@@ -1,4 +1,4 @@
-module github.com/pyflex/go-blockchain-hackernoon
+module github.com/tornvallalexander/go-blockchain-hackernoon
 
 go 1.15
 

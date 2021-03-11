@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/gorilla/mux"
-	Models "github.com/pyflex/go-blockchain-hackernoon/models"
-	Modules "github.com/pyflex/go-blockchain-hackernoon/modules"
+	Models "github.com/tornvallalexander/go-blockchain-hackernoon/models"
+	Modules "github.com/tornvallalexander/go-blockchain-hackernoon/modules"
 )
 
 // ClientHandler ethereum client instance
